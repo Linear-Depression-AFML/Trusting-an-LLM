@@ -524,7 +524,7 @@ if __name__ == "__main__":
     
     # Simulation Parameters
     NUM_GAMES = 20
-    MAX_ROUNDS = 10
+    MAX_ROUNDS = 20
     M0 = 4  # Larger starting pile
     M1 = 1  # Smaller starting pile
     
@@ -597,8 +597,8 @@ if __name__ == "__main__":
             print(f"✓ Game {game_num}: Rounds 1-{len(game_data)} are correct")
     
     # Save CSV
-    df.to_csv("centipede_game_20_games_updated.csv", index=False)
-    print(f"\n✓ Results saved to centipede_game_20_games_updated.csv ({len(df)} rows)")
+    df.to_csv("centipede_game_20_games_updated_20_rounds.csv", index=False)
+    print(f"\n✓ Results saved to centipede_game_20_games_updated_20_rounds.csv ({len(df)} rows)")
     print(f"Player 1 wins: {p1_wins}, Player 2 wins: {p2_wins}, Ties: {ties}, Fails: {game_fails}")
     print("="*50)
     
