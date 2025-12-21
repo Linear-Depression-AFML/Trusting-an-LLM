@@ -1,0 +1,40 @@
+======================================================================
+CENTIPEDE GAME ANALYSIS REPORT
+======================================================================
+
+1. BASIC STATISTICS
+   - Total Games: 20
+   - Total Rounds: 96
+   - Average Game Length: 4.80 rounds
+
+2. TRUST EVOLUTION
+   Initial Trust (avg):
+     - P1 Competence Trust: 0.500
+     - P1 Benevolence Trust: 0.500
+     - P2 Competence Trust: 0.695
+     - P2 Benevolence Trust: 0.692
+   Final Trust (avg):
+     - P1 Competence Trust: 0.878
+     - P1 Benevolence Trust: 0.678
+     - P2 Competence Trust: 0.940
+     - P2 Benevolence Trust: 0.462
+
+3. ACTION DISTRIBUTION
+   - PUSH actions: 76 (79.2%)
+   - TAKE actions: 20 (20.8%)
+   - Average trust when PUSH: 0.731
+   - Average trust when TAKE: 0.878
+
+4. GAME OUTCOMES
+   - Player 1 Wins: 14 (70.0%)
+   - Player 2 Wins: 6 (30.0%)
+   - Ties: 0 (0.0%)
+   - Average P1 Payoff: $164.50
+   - Average P2 Payoff: $436.00
+
+5. KEY INSIGHTS
+   ✓ HIGH cooperation rate (79.2%) suggests effective trust building
+   ✓ Trust INCREASED by 23.9% over games
+   → Moderate game length (4.8) indicates mixed strategies
+
+======================================================================

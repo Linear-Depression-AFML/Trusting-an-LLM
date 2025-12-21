@@ -12,7 +12,7 @@ class CentipedeVisualizer:
     def __init__(self, csv_path):
         """Initialize with path to CSV file."""
         self.df = pd.read_csv(csv_path)
-        self.output_dir = Path("plots")
+        self.output_dir = Path("plots_20_games")
         self.output_dir.mkdir(exist_ok=True)
         
         # Set consistent style
@@ -704,7 +704,7 @@ class CentipedeVisualizer:
 if __name__ == "__main__":
     # Find the most recent CSV file
     csv_files = [
-        "centipede_game_20_games_updated.csv"#,
+        "centipede_game_20_games_updated_20_rounds.csv"#,
         #"centipede_game_10_games_updated.csv",
         #"centipede_game_log.csv"
     ]
