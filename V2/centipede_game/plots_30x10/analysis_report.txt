@@ -1,0 +1,43 @@
+======================================================================
+CENTIPEDE GAME ANALYSIS REPORT (4D DCHTM)
+======================================================================
+
+1. BASIC STATISTICS
+   - Total Games:          30
+   - Total Rounds:         132
+   - Average Game Length:  4.40 rounds
+
+2. TRUST EVOLUTION (Initial → Final averages)
+   P1_CTrust       : 0.500 → 0.847
+   P1_BTrust       : 0.500 → 0.541
+   P2_CTrust       : 0.721 → 0.908
+   P2_BTrust       : 0.649 → 0.566
+   P1_ITrust       : 0.500 → 0.546
+   P1_PTrust       : 0.500 → 0.501
+   P2_ITrust       : 0.562 → 0.579
+   P2_PTrust       : 0.496 → 0.517
+
+3. ACTION DISTRIBUTION
+   - PUSH actions: 102 (77.3%)
+   - TAKE actions: 30 (22.7%)
+   - Avg CTrust on PUSH: 0.747
+   - Avg CTrust on TAKE: 0.854
+
+4. THEORY OF MIND SUMMARY
+   - P1 ToM Order  avg / max:  1.67 / 2
+   - P2 ToM Order  avg / max:  1.70 / 2
+   - Games with deception flag: 0 / 30
+
+5. GAME OUTCOMES
+   - Player 1 Wins: 16 (53.3%)
+   - Player 2 Wins: 14 (46.7%)
+   - Ties:          0  (0.0%)
+   - Avg P1 Payoff: $79.67
+   - Avg P2 Payoff: $76.67
+
+6. KEY INSIGHTS
+   ✓ Cooperation rate: 77.3%
+   ✓ Trust change: +13.0%
+   → Average game length: 4.4 rounds
+
+======================================================================
